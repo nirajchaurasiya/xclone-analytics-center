@@ -49,3 +49,18 @@
   height: 25px;
   border-radius: 20px;
 }
+.in-development-mode {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20vh;
+}
+.in-development-mode div {
+  background-color: var(--active-color);
+  width: 50%;
+  border: 1px solid var(--bg-hover-color);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 0;
+}
