@@ -29,8 +29,8 @@ export default function Header() {
         </div>
 
         <div className="header-profile-logo">
-          <img src="/pfp.png" alt="" />
-          <p>Analytics</p>
+          <img src="/cover.jpg" alt="" />
+          <p>Account</p>
         </div>
       </div>
     </div>
