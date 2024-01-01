@@ -5,6 +5,18 @@
   padding: 15px 30px;
   border-bottom: 1px solid var(--bg-hover-color);
 }
+@media (max-width: 550px) {
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 5px;
+    border-bottom: 1px solid var(--bg-hover-color);
+  }
+  .home-links {
+    display: none;
+  }
+}
 .header-container-logo {
   user-select: none;
   display: flex;
@@ -63,4 +75,14 @@
   flex-direction: column;
   gap: 5px;
   padding: 10px 0;
+}
+@media (max-width: 800px) {
+  .in-development-mode div {
+    width: 70%;
+  }
+}
+@media (max-width: 550px) {
+  .in-development-mode div {
+    width: 90%;
+  }
 }
